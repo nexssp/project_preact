@@ -1,0 +1,30 @@
+{
+  "name": "@nexssp/preact-setup",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "hot": "mix watch --hot",
+    "dev": "mix",
+    "production": "mix --production"
+  },
+  "keywords": [],
+  "author": "Marcin Polak mapoart@gmail.com",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "babel-preset-preact": "^2.0.0",
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.37",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "preact": "^10.5.15",
+    "preact-async-route": "^2.2.1",
+    "preact-router": "^3.2.1"
+  }
+}
